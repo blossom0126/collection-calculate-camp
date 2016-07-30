@@ -12,7 +12,6 @@ describe('compute_median', function () {
     var result = compute_median(collection_a);
     expect(result).toEqual(1);
   });
-
   it('计算给定偶数个数字的集合的中位数', function () {
 
     var result = compute_median(collection_b);

@@ -15,7 +15,7 @@ describe('split_to_zero', function () {
 
   it('根据给定数字无限分割至小于0', function() {
 
-    var result = split_to_zero(0.7, 0.3);
+    var result = split_to_zero(0.7, 0.3);   
     expect(result).toEqual(collection_b);
   });
 });
